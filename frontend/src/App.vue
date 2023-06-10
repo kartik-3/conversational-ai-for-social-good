@@ -1,49 +1,40 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
+    <v-app-bar app color="primary">
+        <v-btn depressed color="primary" class="text-h4 font-weight-bold" @click="goToHome">RKS Research Group</v-btn>
 
       <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
+        <v-btn
+        depressed
+        color="primary"
+        @click="goToPeople"
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        people
+      </v-btn>
+        <v-btn
+        depressed
+        color="primary"
+        @click="goToPublications"
+      >
+        publications
+      </v-btn>
+        <v-btn
+        depressed
+        color="primary"
+        @click="goToProjects"
+      >
+        projects
       </v-btn>
     </v-app-bar>
 
     <v-main>
-      <router-view/>
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script>
+import { routerPush } from './utils/constants';
 
 export default {
   name: 'App',
@@ -51,5 +42,19 @@ export default {
   data: () => ({
     //
   }),
+  methods: {
+    goToHome() {
+      routerPush(this, "home")
+    },
+    goToPeople() {
+      routerPush(this, "people")
+    },
+    goToPublications() {
+      routerPush(this, "publications")
+    },
+    goToProjects() {
+      routerPush(this, "projects")
+    },
+  }
 };
 </script>
