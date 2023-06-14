@@ -1,7 +1,8 @@
 <template>
   <v-app>
     <v-app-bar app color="primary">
-      <v-btn depressed color="primary" class="text-h4 font-weight-bold" @click="goToHome">RKS Research Group</v-btn>
+      <v-btn depressed color="primary" class="text-h4 font-weight-bold" @click="goToHome">RK Srihari Research
+        Group</v-btn>
 
       <v-spacer></v-spacer>
       <v-btn depressed color="primary" @click="goToPeople">
@@ -14,25 +15,28 @@
         projects
       </v-btn>
     </v-app-bar>
-
     <v-footer color="teal lighten-5" style="top: 64px">
       <v-col style="font-weight: bold; font-size: x-large;" cols="12">
         {{ currentRouteName }}
       </v-col>
     </v-footer>
+
     <v-main>
       <router-view />
     </v-main>
     <v-snackbar height="64" v-model="snackbar" text color="primary" :timeout="3000">
       <v-icon large color="amber lighten-1"> mdi mdi-alert-decagram</v-icon>
       <span class="ml-4">This site is still under construction!</span>
-      <!-- <template v-slot:action="{ attrs }"> -->
-        <!-- <v-btn color="red darken-4" text v-bind="attrs" @click="snackbar = false">
-
-          <v-icon>mdi mdi-close-thick</v-icon> </v-btn> -->
-      <!-- </template> -->
     </v-snackbar>
-    <!-- </div> -->
+
+    <v-footer color="blue-grey darken-4" padless>
+      <v-col class="text-center">
+        <p class="white--text mb-0">2023 • State University of New York at Buffalo
+          <br>
+          This site is still under construction.
+        </p>
+      </v-col>
+    </v-footer>
   </v-app>
 </template>
 

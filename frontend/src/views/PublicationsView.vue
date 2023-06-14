@@ -1,8 +1,5 @@
 <template>
   <v-container>
-    <!-- <div class="publications">
-      <h1>This is a publications page</h1>
-    </div> -->
     <v-row>
       <v-col
         cols="12"
