@@ -16,7 +16,7 @@
       </v-expansion-panels>
     </v-card-text>
     <v-card-actions>
-      <v-btn text color="indigo accent-4" :href="publicationLink" target="_blank">
+      <v-btn :disabled="(publicationLink == null)" text color="indigo accent-4" :href="publicationLink" target="_blank">
         Link to publication
       </v-btn>
     </v-card-actions>

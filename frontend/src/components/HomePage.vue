@@ -1,5 +1,4 @@
 <template>
-  <!-- <v-container> -->
   <div class="mx-12">
     <v-alert class="my-6 text-justify text-h5" color="blue" dense text elevation="2">
       <strong>The RK Srihari Research Group</strong>
@@ -29,12 +28,8 @@
     <v-alert class="my-6 text-justify text-h6" color="blue" dense text elevation="2">
       <strong>Research Areas</strong>
     </v-alert>
-    <!-- <p class="text-h6 font-weight-bold">
-      Research Areas
-    </p> -->
     <v-row>
       <v-col>
-        <!-- <div> -->
         <span class="font-weight-bold">
           Combating Disinformation: Detection and Attribution
         </span>
@@ -61,11 +56,9 @@
           reasoning.
         </p>
       </v-col>
-      <!-- </div> -->
       </v-row>
       <v-row>
       <v-col>
-        <!-- <div> -->
           <span class="font-weight-bold">
             Social Unrest Prediction
           </span>
@@ -91,12 +84,9 @@
             and data resources. This work, which was published in COLING and the journal TALIP, discussed the use of
             transfer learning to project English semantic role labels (from PropBank) to an Urdu corpus.
           </p>
-        <!-- </div> -->
       </v-col>
-      <!-- </v-col> -->
     </v-row>
   </div>
-  <!-- </v-container> -->
 </template>
 
 <script>

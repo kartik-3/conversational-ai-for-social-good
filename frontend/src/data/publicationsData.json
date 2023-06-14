@@ -1,5 +1,33 @@
 [
   {
+    "title": "Measuring Stereotypes using Entity-Centric Data",
+    "authors": "Navid Madani, Rabiraj Bandyopadhyay, Michael Miller Yoder, Kenneth Joseph",
+    "conference": "arXiv preprint arXiv:2305.09548 (2023)",
+    "abstract": "Stereotypes inform how we present ourselves and others, and in turn how we behave. They are thus important to measure. Recent work has used projections of embeddings from Distributional Semantic Models (DSMs), such as BERT, to perform these measurements. However, DSMs capture cognitive associations that are not necessarily relevant to the interpersonal nature of stereotyping. Here, we propose and evaluate three novel, entity-centric methods for learning stereotypes from Twitter and Wikipedia biographies. Models are trained by leveraging the fact that multiple phrases are applied to the same person, magnifying the person-centric nature of the learned associations. We show that these models outperform existing approaches to stereotype measurement with respect to 1) predicting which identities people apply to themselves and others, and 2) quantifying stereotypes on salient social dimensions (e.g. gender). Via a case study, we also show the utility of these models for future questions in computational social science.",
+    "publicationLink": "https://arxiv.org/abs/2305.09548"
+  },
+  {
+    "title": "Answering Questions Over Knowledge Graphs Using Logic Programming Along with Language Models",
+    "authors": "Navid Madani, Kenneth Joseph",
+    "conference": "arXiv preprint arXiv:2303.02206 (2023)",
+    "abstract": "Question Answering over Knowledge Graphs (KGQA) is the task of answering natural language questions over a knowledge graph (KG). This task requires a model to reason over multiple edges of the KG to reach the right answer. In this work, we present a method to equip large language models (LLMs) with classic logical programming languages to provide an explainable solution to the problem. Our goal is to extract the representation of the question in the form of a Prolog query, which can then be used to answer the query programmatically. To demonstrate the effectiveness of this approach, we use the MetaQA dataset and show that our method finds the correct answer entities for all the questions in the test dataset.",
+    "publicationLink": "https://arxiv.org/abs/2303.02206"
+  },
+  {
+    "title": "Formal-Logical Distributional Semantics: Applications to Property Inference",
+    "authors": "Michael Sullivan",
+    "conference": "",
+    "abstract": "In this extended abstract, I propose the Formal-Logical Distributional Semantics (FoLDS) model, which generates complex-valued word vectors drawn from a fuzzy-logical model world imperatively constructed from logical-form rep- resentations of sentences from Simple English Wikipedia articles. A complex-valued similarity metric arises nat- urally from complex-valued embeddings, which permits FoLDS to leverage multiple axes of similarity simultane- ously (antonymy/synonymy and relatedness). Moreover, I ar- gue that using a rule-based parser to translate sentences into logical forms has a syntactic de-noising effect on the result- ing embeddings, which allows FoLDS to effectively lever- age a smaller training corpus. I show that FoLDS is able to achieve near-state-of-the-art results (within 10%) on a prop- erty inference task despite using word embeddings obtained from a corpus approximately two hundred times smaller than the training corpora that competing approaches use.",
+    "publicationLink": "https://knowledge-nlp.github.io/aaai2023/papers/018-FoLDS-poster.pdf"
+  },
+  {
+    "title": "MASDA–Modelling Annotator Sensibilities through DisAggregation",
+    "authors": "Michael Sullivan, Mohammed Nasheed Yasin, Cassandra Jacobs",
+    "conference": "17th International Workshop on Semantic Evaluation (SemEval 2023)",
+    "abstract": "Our work presents a system for modeling collective decision-making in an interpretable way. We identify two paradigms of collective decision-making: independent, where decision-makers do not influence each other, and collaborative, where they do. Our system provides a unified approach for handling both scenarios, drawing inspiration from conventional collaborative filtering approaches used in recommendation systems research. To evaluate the effectiveness of our system, we conducted experiments on two datasets: one consisting of conversational data between a chatbot and a human, and the other containing tweets related to three topics (Covid-19, BLM, and Trump 2020).  We also discuss the system's potential applications and directions for future research.",
+    "publicationLink": ""
+  },
+  {
     "title": "Dialo-AP: A Dependency Parsing Based Argument Parser for Dialogues",
     "authors": "Sougata Saha, Souvik Das, Rohini Srihari",
     "conference": "Coling 2022",
@@ -42,6 +70,13 @@
     "publicationLink": "https://aclanthology.org/2022.smm4h-1.32/"
   },
   {
+    "title": "Summary Generation Using Natural Language Processing Techniques and Cosine Similarity",
+    "authors": "Sayantan Pal, Maiga Chang & Maria Fernandez Iriarte",
+    "conference": "ISDA 2021. Lecture Notes in Networks and Systems, vol 418. Springer, Cham",
+    "abstract": "The COVID-19 pandemic has led to an unprecedented challenge to public health. It resulted in global efforts to understand, record, and alleviate the disease. This research serves the purpose of generating a relevant summary related to Coronavirus. The research uses the COVID-19 Open Research Dataset (CORD-19) provided by Allen Institute for AI. The dataset contains 236,336 academic full-text articles as of July 19, 2021. This paper introduces a web-based system to handle user questions over the Coronavirus full-text scholarly articles. The system periodically runs backend services to process such large amount article with basic Natural Language Processing (NLP) techniques that include tokenization, N-Grams extraction, and part-of-speech (PoS) tagging. It automatically identifies the keywords from the question and uses cosine similarity to summarize the associated content and present to the user. This research will possibly benefit researchers, health workers as well as other individuals. Moreover, the same service can be used to train with the datasets of different domains (e.g., education) to generate a relevant summary for other user groups (e.g., students).",
+    "publicationLink": "https://link.springer.com/chapter/10.1007/978-3-030-96308-8_47"
+  },
+  {
     "title": "Let’s Chat: Understanding User Expectations in Socialbot Interactions",
     "authors": "Elizabeth Soper, Erin Pacquetet, Sougata Saha, Souvik Das, Rohini Srihari",
     "conference": "Proceedings of the Second Workshop on Bridging Human–Computer Interaction and Natural Language Processing @ NAACL 2022.",
@@ -54,6 +89,13 @@
     "conference": "International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction and Behavior Representation in Modeling and Simulation, 2020",
     "abstract": "In this paper, we present our Alexa Prize Grand Challenge 4 socialbot: Proto. Leveraging diverse sources of world knowledge, and powered by a suite of neural and rule-based natural language understanding modules, state-of-the-art neural generators, novel state-based deterministic generators, an ensemble of neural re-rankers, a robust post-processing algorithm, and an efficient overall conversation strategy, Proto strives to be able to converse coherently about a diverse range of topics of interest to humans, and provide a memorable experience to the user. In this paper we dissect and analyze the different components and conversation strategies implemented by our socialbot, which enables us to generate colloquial, empathetic, engaging, self-rectifying, factually correct, and on-topic response, which has helped us achieve consistent scores throughout the competition.",
     "publicationLink": "https://arxiv.org/abs/2109.02513"
+  },
+  {
+    "title": "A Method to Analyze Multiple Social Identities in Twitter Bios",
+    "authors": "Arjunil Pathak, Navid Madani, Kenneth Joseph",
+    "conference": "Proceedings of the ACM on Human-Computer Interaction 5.CSCW2 (2021): 1-35",
+    "abstract": "Twitter users signal social identity in their profile descriptions, or bios, in a number of important but complex ways that are not well-captured by existing characterizations of how identity is expressed in language. Better ways of defining and measuring these expressions may therefore be useful both in understanding how social identity is expressed in text, and how the self is presented on Twitter. To this end, the present work makes three contributions. First, using qualitative methods, we identify and define the concept of a personal identifier, which is more representative of the ways in which identity is signaled in Twitter bios. Second, we propose a method to extract all personal identifiers expressed in a given bio. Finally, we present a series of validation analyses that explore the strengths and limitations of our proposed method. Our work opens up exciting new opportunities at the intersection between the social psychological study of social identity and the study of how we compose the self through markers of identity on Twitter and in social media more generally.",
+    "publicationLink": "https://arxiv.org/abs/2107.14120"
   },
   {
     "title": "Similarity Based Label Smoothing For Dialogue Generation",

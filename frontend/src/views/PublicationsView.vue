@@ -11,7 +11,7 @@
         :authors="publication.authors"
         :conference="publication.conference"
         :abstract="publication.abstract"
-        :publicationLink="publication.publicationLink"
+        :publicationLink="(publication.publicationLink ? publication.publicationLink : null)"
         :color="(i%2 == 0 ? 'blue lighten-5': 'indigo lighten-5')"
       >
     </publications-card>
