@@ -1,0 +1,90 @@
+[
+  {
+    "image": "rohini_srihari.jpeg",
+    "name": "Rohini K. Srihari",
+    "title": "Professor and Associate Chair",
+    "department": "Computer Science and Engineering",
+    "role": "professor",
+    "link": "https://www.acsu.buffalo.edu/~rohini/index.html"
+  },
+  {
+    "image": "kartik_sehgal.jpeg",
+    "name": "Kartik Sehgal",
+    "title": "Master of Science",
+    "department": "Computer Science and Engineering",
+    "role": "graduate_student",
+    "link": "https://www.linkedin.com/in/sehgal-kartik/"
+  },
+  {
+    "image": "shalini_agarwal.jpeg",
+    "name": "Shalini Agarwal",
+    "title": "Master of Science",
+    "department": "Computer Science and Engineering",
+    "role": "graduate_student",
+    "link": "https://www.linkedin.com/in/shalini-agarwal/"
+  },
+  {
+    "image": "md_nasheed.jpeg",
+    "name": "Mohammed Nasheed Yasin",
+    "title": "Master of Science",
+    "department": "Computational Linguistics",
+    "role": "graduate_student",
+    "link": "https://www.linkedin.com/in/nasheed-yasin"
+  },
+  {
+    "image": "",
+    "name": "Tanmay Agarwal",
+    "title": "Master of Science",
+    "department": "Computer Science and Engineering",
+    "role": "graduate_student",
+    "link": ""
+  },
+  {
+    "image": "sougata_saha.jpeg",
+    "name": "Sougata Saha",
+    "title": "PhD",
+    "department": "Computer Science and Engineering",
+    "role": "phd_student",
+    "link": "https://sougata-ub.github.io"
+  },
+  {
+    "image": "souvik_das.png",
+    "name": "Souvik Das",
+    "title": "PhD",
+    "department": "Computer Science and Engineering",
+    "role": "phd_student",
+    "link": "https://www.acsu.buffalo.edu/~souvikda/"
+  },
+  {
+    "image": "sayantan_pal.jpg",
+    "name": "Sayantan Pal",
+    "title": "PhD",
+    "department": "Computer Science and Engineering",
+    "role": "phd_student",
+    "link": "https://sayantan-world.github.io"
+  },
+  {
+    "image": "navid_madani.jpg",
+    "name": "Navid Madani",
+    "title": "PhD",
+    "department": "Computer Science and Engineering",
+    "role": "phd_student",
+    "link": "https://navidmdn.github.io/homepage/"
+  },
+  {
+    "image": "michael_sullivan.jpg",
+    "name": "Michael Sullivan",
+    "title": "PhD",
+    "department": "Computational Linguistics",
+    "role": "phd_student",
+    "link": "http://www.acsu.buffalo.edu/~mjs227/"
+  },
+  {
+    "image": "",
+    "name": "Smarana Pankanti",
+    "title": "PhD",
+    "department": "Computer Science and Engineering",
+    "role": "phd_student",
+    "link": ""
+  }
+]

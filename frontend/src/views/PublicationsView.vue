@@ -22,7 +22,7 @@
 
 <script>
 import PublicationsCard from '../components/PublicationsCard'
-import publicationsData from "../data/publicationsData.json"
+import publicationsData from "../data/publications/publicationsData.json"
 
 export default {
   name: 'PublicationsView',

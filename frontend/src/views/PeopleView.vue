@@ -1,5 +1,55 @@
 <template>
-  <div class="people">
-    <!-- <h1>This is a people page</h1> -->
+  <!-- eslint-disable vue/no-use-v-if-with-v-for,vue/no-confusing-v-for-v-if -->
+  <div class="people mx-12">
+    <v-alert class="my-6 text-justify text-body-1" color="blue" dense text elevation="2">
+      Professors
+    </v-alert>
+    <v-row>
+      <v-col v-for="person in people" v-if="person.role == 'professor'" :key="person.name" class="d-flex child-flex">
+        <people-card :image="person.image" :link="person.link" :name="person.name" :title="person.title"
+          :department="person.department">
+        </people-card>
+      </v-col>
+    </v-row>
+    <v-divider class="my-6"></v-divider>
+    <v-alert class="my-6 text-justify text-body-1" color="blue" dense text elevation="2">
+      PhD Students
+    </v-alert>
+    <v-row>
+      <v-col v-for="person in people" v-if="person.role == 'phd_student'" :key="person.name" class="d-flex child-flex">
+        <people-card :image="person.image" :link="person.link" :name="person.name" :title="person.title"
+          :department="person.department">
+        </people-card>
+      </v-col>
+    </v-row>
+    <v-divider class="my-6"></v-divider>
+    <v-alert class="my-6 text-justify text-body-1" color="blue" dense text elevation="2">
+      Graduate Students
+    </v-alert>
+    <v-row>
+      <v-col v-for="person in people" v-if="person.role == 'graduate_student'" :key="person.name"
+        class="d-flex child-flex">
+        <people-card :image="person.image" :link="person.link" :name="person.name" :title="person.title"
+          :department="person.department">
+        </people-card>
+      </v-col>
+    </v-row>
+    <v-divider class="my-6"></v-divider>
   </div>
 </template>
+
+<script>
+import PeopleCard from '../components/PeopleCard.vue'
+import peopleData from "../data/people/data/peopleData.json"
+
+export default {
+  name: 'PeopleView',
+  components: {
+    PeopleCard,
+  },
+  data: () => ({
+    people: peopleData,
+    publicPath: process.env.BASE_URL
+  })
+}
+</script>
