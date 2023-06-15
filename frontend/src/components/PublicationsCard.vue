@@ -1,5 +1,5 @@
 <template>
-  <v-card elevation="0" tile outlined :color="color">
+  <v-card elevation="2" tile outlined :color="color">
     <v-card-title>{{ title }}</v-card-title>
     <v-card-subtitle style="padding-bottom: 0px; font-weight: bold;">{{ authors }}</v-card-subtitle>
     <v-card-text style="padding-bottom: 0px;">{{ conference }}</v-card-text>

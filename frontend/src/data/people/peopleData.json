@@ -24,20 +24,20 @@
     "link": "https://www.linkedin.com/in/shalini-agarwal/"
   },
   {
+    "image": "tanmay_agarwal.jpg",
+    "name": "Tanmay Agarwal",
+    "title": "Master of Science",
+    "department": "Computer Science and Engineering",
+    "role": "graduate_student",
+    "link": ""
+  },
+  {
     "image": "md_nasheed.jpeg",
     "name": "Mohammed Nasheed Yasin",
     "title": "Master of Science",
     "department": "Computational Linguistics",
     "role": "graduate_student",
     "link": "https://www.linkedin.com/in/nasheed-yasin"
-  },
-  {
-    "image": "",
-    "name": "Tanmay Agarwal",
-    "title": "Master of Science",
-    "department": "Computer Science and Engineering",
-    "role": "graduate_student",
-    "link": ""
   },
   {
     "image": "sougata_saha.jpeg",

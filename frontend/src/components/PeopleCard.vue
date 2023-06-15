@@ -5,7 +5,7 @@
       class="mx-4 mt-4 mb-1 grey lighten-2">
     </v-img>
     <v-alert class="mx-4 text-center" color="purple" width="250" outlined>
-      <v-btn text v-if="link != ''" :href="link ? link : null" target="_blank" class="black--text text-overline">
+      <v-btn text v-if="link != ''" :href="link ? link : null" target="_blank" class="indigo--text text-overline">
         {{ name }}
       </v-btn>
       <div text v-else class="black--text text-overline">
@@ -31,9 +31,3 @@ export default {
   props: ['image', 'link', 'name', 'title', 'department']
 }
 </script>
-
-<style>
-.disabled {
-  pointer-events: none;
-}
-</style>

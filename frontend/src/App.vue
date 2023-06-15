@@ -2,8 +2,8 @@
   <v-app>
     <v-app-bar app color="primary">
       <v-btn depressed color="primary" class="text-h4 font-weight-bold" @click="goToHome">RK Srihari Research
-        Group</v-btn>
-
+        Group
+      </v-btn>
       <v-spacer></v-spacer>
       <v-btn depressed color="primary" @click="goToPeople">
         people
@@ -17,7 +17,7 @@
     </v-app-bar>
     <v-footer color="teal lighten-5" style="top: 64px">
       <v-col style="font-weight: bold; font-size: x-large;" cols="12">
-        {{ currentRouteName }}
+        {{ currentRouteName == "Home" ? "Welcome!" : currentRouteName }}
       </v-col>
     </v-footer>
 

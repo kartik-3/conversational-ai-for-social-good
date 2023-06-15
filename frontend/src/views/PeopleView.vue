@@ -40,7 +40,7 @@
 
 <script>
 import PeopleCard from '../components/PeopleCard.vue'
-import peopleData from "../data/people/data/peopleData.json"
+import peopleData from "../data/people/peopleData.json"
 
 export default {
   name: 'PeopleView',

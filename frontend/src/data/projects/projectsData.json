@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Deception Awareness and Reselience Training (DART)",
+    "text": "The Deception Awareness and Resilience Training (DART) platform helps seniors recognize threats and protect themselves. A collaboration between researchers, game designers, and community organizations, DART is unique in tailoring its curriculum and using gamification to make training accessible and engaging for seniors. The team is currently developing multiple chatbots for the DART project. The first is a chatbot which could help users by answering their queries about the various modules within DART Learn. There is another chatbot which would help users reflect on their learning and experience with disinformation and misinformation. Both the chatbots are deterministic and developed using RASA framework, with plans to add a neural bot and speech recognition soon."
+  },
+  {
+    "title": "Enhancing Augmentative and Alternative Communication( AAC) for ALS users",
+    "text": "We are developing an AI-powered chatbot to revolutionize Augmentative and Alternative Communication (AAC) for patients with Amyotrophic Lateral Sclerosis (ALS). Leveraging the capabilities of state-of-the-art conversational AI models like BlenderBot and DialoGPT, we are finetuning them to generate multiple, contextually-relevant responses to user prompts, thereby offering a more personalized and dynamic communication experience. While the current iteration is text-based, we plan to evolve this system into a multimodal platform, incorporating additional communication mechanisms such as gesture recognition and eye-tracking. Our ultimate aim is to significantly enhance AAC users' communicative autonomy and overall life quality."
+  },
+  {
+    "title": "Miss Informed",
+    "text": "Differentiating between intentional spreaders of false information and those who are simply misinformed through chat style interactions."
+  },
+  {
+    "title": "Knowledge grounded generation",
+    "text": "Working on the ways that we can incorporate external knowledge in language models to have more reliable and factual conversational systems."
+  },
+  {
+    "title": "Probing NLI Model Heuristics with Inverse-Adversarial Attacks",
+    "text": "Probing NLI models to detect shallow heuristics they may be leveraging (instead of using actual reasoning ability)."
+  },
+  {
+    "title": "Formal-Logical Distributional Semantics",
+    "text": "Using logical-form representations to generate sentence embeddings for inferencing tasks, in order to leverage those representations' sensitivity to negation (and other logical operators) and invariance with respect to syntactic paraphrase constructions (passivization etc.)."
+  }
+]
