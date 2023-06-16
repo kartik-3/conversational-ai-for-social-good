@@ -9,9 +9,7 @@
       </b>
       <br>
       Welcome to the Natural Language Processing Group at the State University of New York at Buffalo! We are a
-      passionate,
-      inclusive group of
-      students and faculty, postdocs and research engineers, who work together on algorithms that allow computers to
+      passionate, inclusive group of students and faculty, postdocs and research engineers, who work together on algorithms that allow computers to
       process, generate, and understand human languages. Our interests are very broad, including basic scientific research
       on computational linguistics, machine learning, practical applications of human language technology, and
       interdisciplinary work in computational social science and cognitive science. We also develop a wide variety of

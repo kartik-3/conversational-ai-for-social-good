@@ -5,7 +5,8 @@
       Professors
     </v-alert>
     <v-row>
-      <v-col v-for="person in people" v-if="person.role == 'professor'" :key="person.name" class="d-flex child-flex">
+      <v-col v-for="person in people" v-if="person.role == 'professor'" :key="person.name"
+        xl="3" lg="3" md="4" sm="6" xs="12">
         <people-card :image="person.image" :link="person.link" :name="person.name" :title="person.title"
           :department="person.department">
         </people-card>
@@ -16,7 +17,8 @@
       PhD Students
     </v-alert>
     <v-row>
-      <v-col v-for="person in people" v-if="person.role == 'phd_student'" :key="person.name" class="d-flex child-flex">
+      <v-col v-for="person in people" v-if="person.role == 'phd_student'" :key="person.name"
+        xl="3" lg="3" md="4" sm="6" xs="12">
         <people-card :image="person.image" :link="person.link" :name="person.name" :title="person.title"
           :department="person.department">
         </people-card>
@@ -28,7 +30,7 @@
     </v-alert>
     <v-row>
       <v-col v-for="person in people" v-if="person.role == 'graduate_student'" :key="person.name"
-        class="d-flex child-flex">
+        xl="3" lg="3" md="4" sm="6" xs="12">
         <people-card :image="person.image" :link="person.link" :name="person.name" :title="person.title"
           :department="person.department">
         </people-card>
