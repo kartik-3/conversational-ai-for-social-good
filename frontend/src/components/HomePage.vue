@@ -27,7 +27,7 @@
       <span > <strong>Research Areas</strong></span>
     </v-alert>
     <v-row>
-      <v-col>
+      <v-col cols="12" md="6">
         <span class="font-weight-bold">
           Combating Disinformation: Detection and Attribution
         </span>
@@ -40,7 +40,7 @@
           news. A paper describing the data set used in this research was presented and published at ACL 2019.
         </p>
       </v-col>
-      <v-col>
+      <v-col cols="12" md="6">
         <span class="font-weight-bold">
           Conversational AI Systems (Chatbots)
         </span>
@@ -56,7 +56,7 @@
       </v-col>
       </v-row>
       <v-row>
-      <v-col>
+      <v-col cols="12" md="6">
           <span class="font-weight-bold">
             Social Unrest Prediction
           </span>
@@ -70,7 +70,7 @@
             emerging economies.
           </p>
         </v-col>
-        <v-col>
+        <v-col cols="12" md="6">
           <span class="font-weight-bold">
             Multilingual Text Mining
           </span>
