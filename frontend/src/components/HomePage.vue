@@ -1,9 +1,12 @@
 <template>
   <div class="mx-12">
-    <v-alert class="my-6 text-justify text-h5" color="blue" dense text elevation="2">
-      <strong>The RK Srihari Research Group</strong>
+    <v-alert v-if="$vuetify.breakpoint.width > 1000" class="my-6 text-h6" color="blue" dense text elevation="2">
+      <span > <strong>Conversational AI for Social Good</strong></span>
     </v-alert>
-    <p>
+    <v-alert v-else class="my-6 text-body-2" color="blue" dense text elevation="2">
+      <span > <strong>Conversational AI for Social Good</strong></span>
+    </v-alert>
+    <p class="text-justify">
       <b>
         TBD
       </b>
@@ -15,16 +18,13 @@
       interdisciplinary work in computational social science and cognitive science. We also develop a wide variety of
       educational materials on NLP and many tools for the community to use, including the Stanza toolkit which processes
       text in over 60 human languages.
-      <br>
-      <br>
-      The Stanford NLP Group is part of the Stanford AI Lab (SAIL), and we also have close associations with the Stanford
-      Institute for Human-Centered Artificial Intelligence (HAI), the Center for Research on Foundation Models, Stanford
-      Data Science, and CSLI. We include members of the Linguistics Department, the Computer Science Department, the
-      Psychology Department, and the Graduate School of Education, among others.
     </p>
     <v-divider class="my-5"></v-divider>
-    <v-alert class="my-6 text-justify text-h6" color="blue" dense text elevation="2">
+    <v-alert v-if="$vuetify.breakpoint.width > 1000" class="my-6 text-justify text-h6" color="blue" dense text elevation="2">
       <strong>Research Areas</strong>
+    </v-alert>
+    <v-alert v-else class="my-6 text-body-2" color="blue" dense text elevation="2">
+      <span > <strong>Research Areas</strong></span>
     </v-alert>
     <v-row>
       <v-col>

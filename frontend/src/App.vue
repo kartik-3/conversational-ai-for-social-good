@@ -1,22 +1,21 @@
 <template>
   <v-app>
     <v-app-bar app color="primary">
-      <v-btn depressed color="primary" class="text-h4 font-weight-bold" @click="goToHome">RK Srihari Research
-        Group
-      </v-btn>
+      <span><v-btn depressed color="primary" class="text-h5 font-weight-bold text-left" @click="goToHome"><v-icon v-if="$vuetify.breakpoint.width < 1000">mdi mdi-home</v-icon><span v-if="$vuetify.breakpoint.width > 1000"> Conversational AI for Social Good</span></v-btn></span>
       <v-spacer></v-spacer>
       <v-btn depressed color="primary" @click="goToPeople">
-        people
+        <span><v-icon>mdi mdi-account-multiple</v-icon><span v-if="$vuetify.breakpoint.width > 1000"> people</span></span>
       </v-btn>
       <v-btn depressed color="primary" @click="goToPublications">
-        publications
+        <span><v-icon>mdi mdi-bookshelf</v-icon><span v-if="$vuetify.breakpoint.width > 1000"> publications</span></span>
       </v-btn>
       <v-btn depressed color="primary" @click="goToProjects">
-        projects
+        <span><v-icon>mdi mdi-briefcase</v-icon><span v-if="$vuetify.breakpoint.width > 1000"> projects</span></span>
       </v-btn>
     </v-app-bar>
-    <v-footer color="teal lighten-5" style="top: 64px">
-      <v-col style="font-weight: bold; font-size: x-large;" cols="12">
+    <!-- footer mein space is 56px -->
+    <v-footer color="teal lighten-5" :style="{top: $vuetify.breakpoint.width > 1000 ? 64 + 'px' : 56 + 'px'}" height="56px">
+      <v-col style="font-weight: bold; font-size: large;" cols="12">
         {{ currentRouteName == "Home" ? "Welcome!" : currentRouteName }}
       </v-col>
     </v-footer>

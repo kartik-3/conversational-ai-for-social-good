@@ -8,11 +8,11 @@
     "text": "We are developing an AI-powered chatbot to revolutionize Augmentative and Alternative Communication (AAC) for patients with Amyotrophic Lateral Sclerosis (ALS). Leveraging the capabilities of state-of-the-art conversational AI models like BlenderBot and DialoGPT, we are finetuning them to generate multiple, contextually-relevant responses to user prompts, thereby offering a more personalized and dynamic communication experience. While the current iteration is text-based, we plan to evolve this system into a multimodal platform, incorporating additional communication mechanisms such as gesture recognition and eye-tracking. Our ultimate aim is to significantly enhance AAC users' communicative autonomy and overall life quality."
   },
   {
-    "title": "Miss Informed",
+    "title": "Miss-Informed",
     "text": "Differentiating between intentional spreaders of false information and those who are simply misinformed through chat style interactions."
   },
   {
-    "title": "Knowledge grounded generation",
+    "title": "Knowledge Grounded Generation",
     "text": "Working on the ways that we can incorporate external knowledge in language models to have more reliable and factual conversational systems."
   },
   {
