@@ -9,12 +9,15 @@
       <v-btn depressed color="primary" @click="goToPublications">
         <span><v-icon>mdi mdi-bookshelf</v-icon><span v-if="$vuetify.breakpoint.width > 1000"> publications</span></span>
       </v-btn>
-      <v-btn depressed color="primary" @click="goToProjects">
-        <span><v-icon>mdi mdi-briefcase</v-icon><span v-if="$vuetify.breakpoint.width > 1000"> projects</span></span>
+      <v-btn depressed color="primary" @click="goToBriefings">
+        <span><v-icon>mdi mdi-newspaper-variant-outline</v-icon><span v-if="$vuetify.breakpoint.width > 1000"> briefings</span></span>
       </v-btn>
+      <!-- <v-btn depressed color="primary" @click="goToProjects">
+        <span><v-icon>mdi mdi-briefcase</v-icon><span v-if="$vuetify.breakpoint.width > 1000"> projects</span></span>
+      </v-btn> -->
     </v-app-bar>
-    <!-- footer mein space is 56px -->
-    <v-footer color="teal lighten-5" :style="{top: $vuetify.breakpoint.width > 1000 ? 64 + 'px' : 56 + 'px'}" height="56px">
+    <!-- footer space is 56px -->
+    <v-footer v-if="currentRouteName != 'Home'" color="teal lighten-5" :style="{top: $vuetify.breakpoint.width > 1000 ? 64 + 'px' : 56 + 'px'}" height="56px">
       <v-col style="font-weight: bold; font-size: large;" cols="12">
         {{ currentRouteName == "Home" ? "Welcome!" : currentRouteName }}
       </v-col>
@@ -64,9 +67,12 @@ export default {
     goToPublications() {
       routerPush(this, "Publications")
     },
-    goToProjects() {
-      routerPush(this, "Projects")
-    }
+    goToBriefings() {
+      routerPush(this, "Briefings")
+    },
+    // goToProjects() {
+    //   routerPush(this, "Projects")
+    // }
   },
   mounted() {
     this.snackbar = true

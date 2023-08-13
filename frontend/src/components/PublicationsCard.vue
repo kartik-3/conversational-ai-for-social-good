@@ -1,8 +1,8 @@
 <template>
   <v-card elevation="2" tile outlined :color="color">
     <v-card-title>{{ title }}</v-card-title>
-    <v-card-subtitle style="padding-bottom: 0px; font-weight: bold;">{{ authors }}</v-card-subtitle>
-    <v-card-text style="padding-bottom: 0px;">{{ conference }}</v-card-text>
+    <v-card-subtitle class="mb-2 pb-0 font-weight-bold">{{ authors }}</v-card-subtitle>
+    <!-- <v-card-text style="padding-bottom: 0px;">{{ conference }}</v-card-text> -->
     <v-card-text>
       <v-expansion-panels accordion>
         <v-expansion-panel>

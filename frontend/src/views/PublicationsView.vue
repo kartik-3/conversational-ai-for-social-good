@@ -9,11 +9,11 @@
       <publications-card 
         :title="publication.title"
         :authors="publication.authors"
-        :conference="publication.conference"
         :abstract="publication.abstract"
         :publicationLink="(publication.publicationLink ? publication.publicationLink : null)"
-        :color="(i%2 == 0 ? 'blue lighten-5': 'indigo lighten-5')"
-      >
+        :color="(i % 2 == 0 ? 'blue lighten-5' : 'indigo lighten-5')"
+            >
+        <!-- :conference="publication.conference" -->
     </publications-card>
       </v-col>
     </v-row>

@@ -1,89 +1,99 @@
 <template>
-  <div class="mx-12">
-    <v-alert v-if="$vuetify.breakpoint.width > 1000" class="my-6 text-h6" color="blue" dense text elevation="2">
-      <span > <strong>Conversational AI for Social Good</strong></span>
-    </v-alert>
-    <v-alert v-else class="my-6 text-body-2" color="blue" dense text elevation="2">
-      <span > <strong>Conversational AI for Social Good</strong></span>
-    </v-alert>
-    <p class="text-justify">
-      <b>
-        TBD
-      </b>
-      <br>
-      Welcome to the Natural Language Processing Group at the State University of New York at Buffalo! We are a
-      passionate, inclusive group of students and faculty, postdocs and research engineers, who work together on algorithms that allow computers to
-      process, generate, and understand human languages. Our interests are very broad, including basic scientific research
-      on computational linguistics, machine learning, practical applications of human language technology, and
-      interdisciplinary work in computational social science and cognitive science. We also develop a wide variety of
-      educational materials on NLP and many tools for the community to use, including the Stanza toolkit which processes
-      text in over 60 human languages.
-    </p>
-    <v-divider class="my-5"></v-divider>
-    <v-alert v-if="$vuetify.breakpoint.width > 1000" class="my-6 text-justify text-h6" color="blue" dense text elevation="2">
-      <strong>Research Areas</strong>
-    </v-alert>
-    <v-alert v-else class="my-6 text-body-2" color="blue" dense text elevation="2">
-      <span > <strong>Research Areas</strong></span>
-    </v-alert>
-    <v-row>
-      <v-col cols="12" md="6">
-        <span class="font-weight-bold">
-          Combating Disinformation: Detection and Attribution
-        </span>
-        <p>
-          This effort is focused on using natural language processing and deep learning methods to first identify
-          disinformation in news and social media, and more importantly, provide evidence that they reflect false or
-          misleading information. A key initial step is to first identify phrases or sentences that represent key claims
-          being made. Each of then is used to search a set of reputable news sources for either supporting or refuting
-          evidence. The data sets span different topics, including political news and more recently, Covid related fake
-          news. A paper describing the data set used in this research was presented and published at ACL 2019.
-        </p>
+  <div>
+    <v-footer v-if="currentRouteName != 'Home'" color="teal lighten-5" height="56px">
+      <v-col style="font-weight: bold; font-size: large;" cols="12">
+        <p class="red--text text--lighten-2"> Latest updates: The team recently presented at ACL 2023.</p>
       </v-col>
-      <v-col cols="12" md="6">
-        <span class="font-weight-bold">
-          Conversational AI Systems (Chatbots)
-        </span>
-        <p>
-          This is a recent effort, focusing on the development of chatbots that are able to leverage rich content in
-          generating responses (similar to question answering systems) as well as reflect empathy in generating tone
-          appropriate responses. During the Covid pandemic, people find themselves increasingly isolated, including
-          patients in hospitals. Intelligent and empathetic chatbots can help alleviate some of the despondence due to
-          isolation. These models leverage state-of-the-art language models (such as GPT2 and GPT3) along with
-          innovative deep learning architectures. We are also exploring the use of knowledge graph embeddings for deeper
-          reasoning.
-        </p>
-      </v-col>
-      </v-row>
+    </v-footer>
+    <div class="mx-12">
+      <v-alert v-if="$vuetify.breakpoint.width > 1000" class="my-6 text-h6" color="blue" dense text elevation="2">
+        <span> <strong>Conversational AI for Social Good</strong></span>
+      </v-alert>
+      <v-alert v-else class="my-6 text-body-2" color="blue" dense text elevation="2">
+        <span> <strong>Conversational AI for Social Good</strong></span>
+      </v-alert>
+      <p class="text-justify">
+        <b>
+          TBD
+        </b>
+        <br>
+        Welcome to the Natural Language Processing Group at the State University of New York at Buffalo! We are a
+        passionate, inclusive group of students and faculty, postdocs and research engineers, who work together on
+        algorithms that allow computers to process, generate, and understand human languages. Our interests are very
+        broad, including basic scientific research on computational linguistics, machine learning, practical applications
+        of human language technology, and interdisciplinary work in computational social science and cognitive science.
+        We also develop a wide variety of educational materials on NLP and many tools for the community to use, including
+        the Stanza toolkit which processes text in over 60 human languages.
+      </p>
+      <v-divider class="my-5"></v-divider>
+      <v-alert v-if="$vuetify.breakpoint.width > 1000" class="my-6 text-justify text-h6" color="blue" dense text
+        elevation="2">
+        <strong>Ongoing Projects</strong>
+      </v-alert>
+      <v-alert v-else class="my-6 text-body-2" color="blue" dense text elevation="2">
+        <span> <strong>Ongoing Projects</strong></span>
+      </v-alert>
       <v-row>
-      <v-col cols="12" md="6">
+        <v-col cols="12" md="6">
           <span class="font-weight-bold">
-            Social Unrest Prediction
+            Sougata's research project
           </span>
           <p>
-            One aspect of this research has focused on leveraging diverse global data sources (including locally sourced
-            data, “big data” including sensor data) and predictive analytics to provide early warning of social and
-            economic disruption in emerging economies. It involves several components, including text mining and
-            classification, fusion of information sources to quantify the stress associated with various indicators, and
-            finally, computational models for predicting disruption, that is specific to a place and time. This research
-            is focused on using heterogeneous data sources to provide early warning of social and economic disruption in
-            emerging economies.
+            TBD
           </p>
         </v-col>
         <v-col cols="12" md="6">
           <span class="font-weight-bold">
-            Multilingual Text Mining
+            Souvik's research project
           </span>
           <p>
-            My work on multilingual text mining, includes languages that are less commonly taught (LCTL). These languages
-            are characterized by the lack of critical resources such as electronic dictionaries, annotated corpora (for
-            training machine learning modules) and other rich resources used in English NLP such as WordNet. I have
-            supervised PhD students in adapting resources from other languages to automatically generate critical tools
-            and data resources. This work, which was published in COLING and the journal TALIP, discussed the use of
-            transfer learning to project English semantic role labels (from PropBank) to an Urdu corpus.
+            TBD
           </p>
-      </v-col>
-    </v-row>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12" md="6">
+          <span class="font-weight-bold">
+            Enhancing Augmentative and Alternative Communication( AAC) for ALS users
+          </span>
+          <p>
+            We are developing an AI-powered chatbot to revolutionize Augmentative and Alternative Communication (AAC) for
+            patients with Amyotrophic Lateral Sclerosis (ALS). Leveraging the capabilities of state-of-the-art
+            conversational AI models like BlenderBot and DialoGPT, we are finetuning them to generate multiple,
+            contextually-relevant responses to user prompts, thereby offering a more personalized and dynamic
+            communication experience. While the current iteration is text-based, we plan to evolve this system into a
+            multimodal platform, incorporating additional communication mechanisms such as gesture recognition and
+            eye-tracking. Our ultimate aim is to significantly enhance AAC users' communicative autonomy and overall life
+            quality.
+          </p>
+        </v-col>
+        <v-col cols="12" md="6">
+          <span class="font-weight-bold">
+            Deception Awareness and Reselience Training (DART)
+          </span>
+          <p>
+            The Deception Awareness and Resilience Training (DART) platform helps seniors recognize threats and protect
+            themselves. A collaboration between researchers, game designers, and community organizations, DART is unique
+            in tailoring its curriculum and using gamification to make training accessible and engaging for seniors. The
+            team is currently developing multiple chatbots for the DART project. The first is a chatbot which could help
+            users by answering their queries about the various modules within DART Learn. There is another chatbot which
+            would help users reflect on their learning and experience with disinformation and misinformation. Both the
+            chatbots are deterministic and developed using RASA framework, with plans to add a neural bot and speech
+            recognition soon.
+          </p>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12" md="6">
+          <span class="font-weight-bold">
+            Knowledge Grounded QA
+          </span>
+          <p>
+            Working on the ways that we can incorporate external knowledge in language models to have more reliable and factual conversational systems.
+          </p>
+        </v-col>
+      </v-row>
+    </div>
   </div>
 </template>
 
