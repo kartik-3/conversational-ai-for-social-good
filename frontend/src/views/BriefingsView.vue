@@ -1,20 +1,22 @@
 <template>
-  <v-container>
-    TBD
+  <v-container class="mt-6">
+    <div v-for="(briefing, idx) in briefings" :key="idx">
+      <briefings-card :title="briefing.title" :text="briefing.text"></briefings-card>
+    </div>
   </v-container>
 </template>
 
 <script>
-// import PublicationsCard from '../components/PublicationsCard'
-// import publicationsData from "../data/publications/publicationsData.json"
+import BriefingsCard from '../components/BriefingsCard'
+import briefingsData from "../data/briefings/briefingsData.json"
 
 export default {
   name: 'BriefingsView',
   components: {
-    // PublicationsCard,
+    BriefingsCard,
   },
   data: () => ({
-    // publications: publicationsData
+    briefings: briefingsData,
   }),
 }
 </script>
